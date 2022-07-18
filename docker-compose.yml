@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  udemy_cc_lubmn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: udemy_cc_lubmn
+    container_name: udemy_cc_lubmn
+    volumes:
+      - type: bind
+        source: "./work"
+        target: "/work"
+    stdin_open: true
+    tty: true
+    working_dir: /work
