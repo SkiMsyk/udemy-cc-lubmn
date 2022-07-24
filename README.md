@@ -38,3 +38,14 @@ When you're going to use <math.h>, you should add `-lm` option to compile.
 ```{shell}
 $ gcc -o smaple.c sample.out -lm
 ```
+
+## printf: pointer address and unsigned long
+
+|type|param|
+|:-|:-|
+|int|"%d"|
+|float|"%f"|
+|double|"%f"|
+|unsigned int|"%x"|
+|pointer address|"%p"|
+|unsigned long|"%lu"|
