@@ -31,3 +31,10 @@ $ docker-compose exec [container name] bash
 $ gcc -o main.out main.c calc.c
 ```
 
+## compile with math.h
+
+When you're going to use <math.h>, you should add `-lm` option to compile.
+
+```{shell}
+$ gcc -o smaple.c sample.out -lm
+```
